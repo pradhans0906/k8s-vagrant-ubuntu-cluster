@@ -17,14 +17,14 @@ once the cluser is ready copy the file and start accessing the cluster
 
 scp root@10.0.0.10:/etc/kubernetes/admin.conf ~/.kube/vagrant-config
 
-pradhans0906@Swapnasagars-MacBook-Pro % kubectl get nodes
+pradhans0906@Swapnasagar % kubectl get nodes
 
 NAME       STATUS   ROLES                  AGE     VERSION
 kmaster    Ready    control-plane,master   7m26s   v1.21.1
 kworker1   Ready    <none>                 5m9s    v1.21.1
 kworker2   Ready    <none>                 2m33s   v1.21.1
 
-pradhans0906@Swapnasagars-MacBook-Pro % kubectl cluster-info
+pradhans0906@Swapnasagar % kubectl cluster-info
 Kubernetes control plane is running at https://10.0.0.10:6443
 CoreDNS is running at https://10.0.0.10:6443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
 ```
